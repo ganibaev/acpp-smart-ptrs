@@ -1,4 +1,4 @@
-# Умные указатели
-Реализация умных указателей (unique_ptr, shared_ptr) с поддержкой кастомных деструкторов (в UniquePtr) и make_shared с одной аллокацией (в SharedPtr). Проект реализован в рамках курса "Язык программирования C++ (углубленный курс)" на ПМИ ФКН НИУ ВШЭ.
+# Smart pointers
+Implementation of smart pointers (unique_ptr, shared_ptr) with support of custom destructors (in UniquePtr) and make_shared with one allocation (in SharedPtr). The project was made as part of the Advanced C++ course at the CS program of Higher School of Economics.
 
-В SharedPtr также реализован каркас для поддержки WeakPtr.
+SharedPtr also implements a framework to support WeakPtr.
